@@ -1,0 +1,168 @@
+.wrapper {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+.dropdown-menu {
+  display: block;
+}
+/* End Header */
+
+/* Logo */
+.text-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #82c91e !important;
+  display: flex;
+  align-items: center;
+}
+
+.text-logo:hover {
+  filter: invert(50%) sepia(8%) saturate(1187%) hue-rotate(169deg) brightness(93%) contrast(86%);
+}
+
+.text-logo fa-icon {
+  margin-right: 5px;
+  font-size: 40px;
+}
+/* ------ End Logo ------ */
+
+/* Search */
+.search-area {
+  margin: 0 40px;
+}
+
+.search-btn {
+  border-radius: 60px;
+  border: 2px solid #82c91e;
+  color: #82c91e !important;
+  padding: 5px 15px;
+}
+
+.search-btn:hover {
+  background: #82c91e !important;
+  color: #fff !important;
+}
+
+.search-input {
+  border-radius: 60px;
+  width: 300px !important;
+}
+/* ------ End search ------ */
+
+/* Cart */
+.cart-area {
+  border: 2px solid #82c91e;
+  color: #82c91e !important;
+  border-radius: 6px;
+}
+
+.cart-area:hover {
+  text-decoration: none;
+  color: #736147 !important;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.cart i {
+  margin-right: 5px;
+}
+
+.cart-amount {
+  margin-left: 5px;
+}
+
+.badge-midori {
+  color: #fff;
+  background-color: #82c91e;
+}
+/* ------ End Cart ------ */
+
+/* Profile */
+.dropdown img {
+  height: 40px;
+  width: 40px;
+}
+/* End profile. */
+
+/* Sidebar */
+.sidebar {
+  width: 20%;
+  font-size: 16px;
+}
+
+.portfolio p {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.star-color {
+  color: #82c91e !important;
+}
+
+#rating p {
+  margin: 0;
+}
+/* End Sidebar */
+
+/* Footer */
+.payment-content {
+  display: grid;
+}
+
+.payment-content img {
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+.footer-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #82c91e !important;
+}
+
+.footer-logo:hover {
+  text-decoration: none;
+  filter: invert(50%) sepia(8%) saturate(1187%) hue-rotate(169deg) brightness(93%) contrast(86%);
+}
+
+.footer-block {
+  display: block;
+}
+
+.footer-title h5 {
+  font-size: 20px;
+}
+
+.footer-content {
+  display: grid;
+}
+
+.footer-content a {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content a:hover {
+  text-decoration: none;
+}
+
+.follow-icon {
+  font-size: 30px;
+  margin: 0 5px 5px 0;
+  color: #82c91e !important;
+}
+
+.follow-icon:hover {
+  color: #736147 !important;
+}
+
+.row {
+  margin-left: unset;
+}
+/* End footer */
